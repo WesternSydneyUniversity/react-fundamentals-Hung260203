@@ -28,12 +28,17 @@
   padding: 4px 8px;
   border: 2px solid var(--darkest);
   color: white;
+  cursor: pointer;
 }
 
 .title {
   flex: 1;
 }
 
+.titleCompleted {
+  text-decoration: line-through;
+  flex: 1;
+}
 /* CHECKBOX */
 
 .checkbox .round {
